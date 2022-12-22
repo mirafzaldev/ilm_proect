@@ -1,0 +1,163 @@
+body{
+    height: 100vp;
+margin-top: 0;
+    font-family: 'Arima Madurai', cursive;
+line-height: 1,6;
+font-size: 16px;
+color: rgb(251, 251, 251);
+}
+*,
+*:before,
+*:after{
+     box-sizing: border-box;
+}
+/* conatainer */
+.container{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+h1,h2,h3,h4,h5,h6{
+    margin: 0;
+}
+/* intra uchun */
+
+
+.intra{
+    width: 100%;
+    height: 500px;
+    background: url("intra.jpg") center
+    no-repeat;
+    background-size: cover;
+
+}
+
+.intr_somsa{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    width: 100%;
+    max-width: 770px;
+    margin: 0 auto;
+}
+
+.somsa{
+
+    font-size: 100px;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 1;
+
+      
+
+}
+.somsaa{
+    text-align:  center;
+    font-size: 36px ;
+    font-weight: 499;
+    line-height: 2;
+    color : rgb(243, 207, 6);
+    font-family:'Mogra', cursive ;
+}
+
+.header{
+    width: 100%;
+    position: absolute;
+    top:0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+}
+.link{
+    width: 100%;
+    position: absolute;
+    display: flex;
+    text-align:  center;
+    /* justify-content:baseline; */
+    flex-direction:row;
+    /* align-items: baseline; */
+    /* align-content: space-between; */
+}
+.linklar{
+
+    align-content: space-between;
+    margin: auto;
+    color: black;
+
+}
+.conta{
+
+    margin: auto;
+    /* height: 100%; */
+    /* height: 100%; */
+    background-color: rgb(209, 247, 55);
+
+}
+.box{
+    background-color: rgb(227, 41, 41);
+    display: inline-block;
+    margin-right: 46px;
+    width: 100%;
+    height: 100%;
+}
+
+.mimi{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    
+    
+}
+.down{
+    margin: 11px;
+    background-color: rgb(5, 36, 48);
+    width: 400px;
+    height: 300px;
+    border-radius: 15px;
+    padding: 14px;
+    font-size: 20px;
+    font-weight: 300;
+}
+.down2{
+    margin: 11px;
+    background-color: rgb(22, 30, 42);
+    width: 500px;
+    height: 300px;
+    border-radius: 15px;
+    padding: 14px;
+
+}
+.down3{
+    margin: 11px;
+    background-color: rgb(22, 30, 42);
+    width: 700px;
+    height: 300px;
+    border-radius: 15px;
+    padding: 14px;
+
+
+}
+.title{
+    font-size: 30px;
+    font-weight: 600;
+    
+}
+.pass{
+
+    margin: 11px;
+    background-color: rgb(5, 19, 68);
+    width: px;
+    height: 260px;
+    border-radius: 15px;
+    padding: 14px;
+
+
+}
+.rasm{
+    margin:   auto 1%;
+    width: 99%;
+}
